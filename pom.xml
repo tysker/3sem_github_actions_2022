@@ -93,7 +93,7 @@
         </dependency>
 
     </dependencies>
-    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
+
     <build>
        
         <plugins>
@@ -102,14 +102,14 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
-                <configuration>          
+                <configuration>
                     <server>TomcatServer</server>
                     <url>${remote.server}</url>
                     <username>${remote.user}</username>
                     <password>${remote.password}</password>
-                    <update>true</update>    
-                </configuration>  
-            </plugin>          
+                    <update>true</update>
+                </configuration>
+            </plugin>
             
             <!--This is used to enable @BeforeAll etc used in jUnit 5 -->
             <plugin>
